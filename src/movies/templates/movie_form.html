@@ -8,7 +8,7 @@
 
     {% if messages %}
         {% for message in messages %}
-            {% autoescape off %
+            {% autoescape off %}
                 <div class="alert alert-success">{{ message }}</div>
             {% endautoescape %}
         {% endfor %}
