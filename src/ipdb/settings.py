@@ -125,6 +125,7 @@ STATICFILES_DIRS = [
 ]
 
 
+# Muestra las queries SQL en la consola
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -141,3 +142,6 @@ LOGGING = {
         },
     }
 }
+
+# Login URL
+LOGIN_URL = "/login"
