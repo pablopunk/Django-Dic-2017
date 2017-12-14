@@ -146,3 +146,9 @@ LOGGING = {
 
 # Login URL
 LOGIN_URL = "/login"
+
+# Django REST Framework settings
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 2
+}
